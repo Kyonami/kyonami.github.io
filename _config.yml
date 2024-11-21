@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -116,12 +116,12 @@ author:
   name             : "Kyonam Shim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "게임 클라이언트 프로그래머"
-  location         : "Seoul/Daegu"
+  location         : "Seoul"
   email            : "tlaryska12@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:tlaryska12@naver.com"
+      # url: "mailto:tlaryska12@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://github.com/Kyonami"
