@@ -1,0 +1,54 @@
+/* 기본 본문 영역 /
+/ Markdown 컨텐트를 감싸는 클래스 (Minima, GitHub Pages 공통) /
+body {
+  / 본문 기본 색상 (선택 사항) /
+  color: #d0d0d0;
+}
+
+.page {
+  --global-border-color: #2f2f2f;
+  --global-code-background-color: #2f2f2f;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.page__content {
+  font-size: 15px;
+  line-height: 2.0;         / 행간 1.6배 /
+}
+
+.page__date {
+  font-size: 12px;
+}
+
+/ 문단 간 간격 (p 태그 사이) /
+body p {
+  margin-bottom: 0.1em;     / 문단 아래 여백 3em /
+}
+
+/ 리스트 항목 간격 /
+body li + li {
+  margin-top: 0.7em;
+}
+
+/ 1) 제목 색상 지정 /
+body h1 {
+  color: #ffffff;
+}
+body h2 {
+  color: #ffffff;
+}
+body h3 {
+  color: #ffffff;
+}
+/ 필요에 따라 h4, h5, h6 도 추가 가능 /
+body h4 { color: #ffffff; font-size: 14px; }
+body h5 { color: #b1b1b1; }
+body h6 { color: #b1b1b1; }
+
+/ 2) 굵은 텍스트(bold) 색상 지정 /
+/ 마크다운에서 bold는 <strong> 또는 <b> 태그로 렌더링됩니다. */
+body strong,
+body b {
+  color: #ffffff!important;
+}
