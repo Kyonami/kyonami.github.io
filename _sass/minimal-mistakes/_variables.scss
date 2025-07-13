@@ -16,9 +16,9 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif                      : "Nanum Myeongjo", serif !default;
+$serif                      : "Noto Sans KR", serif !default;
 $sans-serif                 : "Noto Sans KR", -apple-system, "Segoe UI", sans-serif !default;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace                  : Monaco, Consolas, "D2Coding", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
