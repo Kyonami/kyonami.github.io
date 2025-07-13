@@ -44,12 +44,12 @@ video {
   @include breakpoint($large) {
     float: inline-end;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    // padding-inline-end: $right-sidebar-width-narrow;
+    padding-inline-end: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    // padding-inline-end: $right-sidebar-width;
+    padding-inline-end: $right-sidebar-width;
   }
 
   .page__inner-wrap {
@@ -551,12 +551,6 @@ video {
   text-transform: uppercase;
 }
 
-video {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 2rem auto;
-}
 /*
    Wide Pages
    ========================================================================== */
