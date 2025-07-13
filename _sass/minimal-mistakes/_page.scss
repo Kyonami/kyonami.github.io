@@ -5,10 +5,10 @@
 #main {
   @include clearfix;
   margin-inline: auto;
-  padding-inline: 1em;
+  padding-inline: 15em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
-  max-width: 100%;
+  // max-width: 100%;
   //-webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
