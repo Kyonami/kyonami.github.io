@@ -9,7 +9,7 @@
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
-  -webkit-animation-delay: 0.15s;
+  //-webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
@@ -26,6 +26,13 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
           flex-direction: column;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
 }
 
 .initial-content,
