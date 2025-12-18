@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16px !default;
+$doc-font-size: 12px !default;
 $doc-font-size-medium: $doc-font-size * 1.125 !default;
 $doc-font-size-large: $doc-font-size * 1.25 !default;
 $doc-font-size-x-large: $doc-font-size * 1.375 !default;
@@ -16,9 +16,9 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif                      : "Nanum Myeongjo", serif !default;
+$serif                      : "Noto Sans KR", serif !default;
 $sans-serif                 : "Noto Sans KR", -apple-system, "Segoe UI", sans-serif !default;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace                  : Monaco, Consolas, "D2Coding", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -173,3 +173,9 @@ $navicon-width: 1.5rem !default;
 $navicon-height: 0.25rem !default;
 $global-transition: all 0.2s ease-in-out !default;
 $intro-transition: intro 0.3s both !default;
+
+/* Code */
+
+$body-font-family: 'D2Coding', system-ui, -apple-system !default;
+$header-font-family: 'D2Coding', system-ui, -apple-system !default;
+$code-font-family: 'D2Coding', monospace !default;
